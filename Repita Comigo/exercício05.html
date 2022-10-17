@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--
+        5 - Faça um algoritmo que calcule e escreva a média aritmética dos dois números inteiros informados pelo usuário e todos os números inteiros entre eles. Considere que o primeiro sempre será menor que o segundo.
+    -->
+<script>
+    var num1 = parseInt(prompt("Insira o primeiro valor"))
+    var num2 = parseInt(prompt("Insira o segundo valor"))
+    var conta = num1 - num2;
+    var acumuladora = 0;
+   
+    while(num1 < num2){
+        acumuladora += num1;{
+            acumuladora += num2;
+            num2++;
+
+        }
+    }
+
+    document.write(acumuladora/conta)
+
+
+</script>
+    
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
